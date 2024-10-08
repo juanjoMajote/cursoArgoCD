@@ -21,6 +21,7 @@ spec:
         ports:
         - containerPort: 80
 
+---
 # Aquí comienza el Sync Hook (PreSync) que se ejecutará antes del despliegue
 apiVersion: batch/v1
 kind: Job
